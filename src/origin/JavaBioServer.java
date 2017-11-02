@@ -11,7 +11,7 @@ import java.nio.charset.Charset;
  * java阻塞IO
  *
  */
-public class JavaOioServer {
+public class JavaBioServer {
 	public void server(int port) throws Exception{
 		final ServerSocket socket=new ServerSocket(port);
 		try{
