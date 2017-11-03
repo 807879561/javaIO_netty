@@ -17,7 +17,7 @@ import java.util.Iterator;
  *
  */
 public class JavaNioServer {
-	public void Server(int port) throws Exception {
+	public void server(int port) throws Exception {
 		System.out.println("listening for connections on port" + port);
 		Selector selector = Selector.open();
 		ServerSocketChannel serverChannel = ServerSocketChannel.open();
@@ -91,7 +91,7 @@ public class JavaNioServer {
 	public static void main(String[] args) {
 		JavaNioServer server = new JavaNioServer();
 		try {
-			server.Server(7000);
+			server.server(7000);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

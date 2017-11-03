@@ -44,4 +44,14 @@ public class JavaBioServer {
 		}
 	}
 
+	public static void main(String[] args) {
+		JavaBioServer server = new JavaBioServer();
+		try {
+			server.server(7000);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 }
