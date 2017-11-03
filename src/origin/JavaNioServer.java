@@ -93,7 +93,6 @@ public class JavaNioServer {
 		try {
 			server.server(7000);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
